@@ -117,13 +117,13 @@ body,
 }
 body {
   background: #eee;
-  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font: 1.2em -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 1220px;
+  max-width: 104.19999999999999%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 3%;
 }
 .outer:before,
 .outer:after {
@@ -136,8 +136,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 98.33333333333333%;
-  margin: 0 0.833333333333333%;
+  width: 97.03557312252964%;
+  margin: 0 1.482213438735178%;
 }
 .left,
 .alignleft {
@@ -176,8 +176,19 @@ body {
   #main {
     display: inline;
     float: left;
-    width: 73.33333333333333%;
-    margin: 0 0.833333333333333%;
+    width: 78.85375494071147%;
+    margin: 0 1.482213438735178%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #toc {
+    display: inline;
+    float: left;
+    width: 24.308300395256918%;
+    margin: 0 1.482213438735178%;
+    float: right;
+    position: sticky;
+    top: 200px;
   }
 }
 .article-date,
@@ -398,9 +409,9 @@ body {
 }
 .nav-icon {
   text-align: center;
-  font-size: 14px;
-  width: 14px;
-  height: 14px;
+  font-size: 1.2em;
+  width: 1.2em;
+  height: 1.2em;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
@@ -521,7 +532,7 @@ body {
 }
 .article-title {
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   color: #555;
   line-height: 1.1em;
@@ -610,7 +621,7 @@ a.article-title:hover {
   text-align: center;
 }
 .article-entry blockquote footer {
-  font-size: 14px;
+  font-size: 1.2em;
   margin: 1.6em 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
@@ -933,9 +944,8 @@ a.article-title:hover {
   .toc-article {
     position: sticky;
     top: 250px;
-    margin-left: -200px;
-    float: left;
-    width: 150px;
+    float: right;
+    width: 25%;
     z-index: 10;
     max-height: 70vh;
     overflow-y: auto;
@@ -1101,7 +1111,7 @@ a.article-title:hover {
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 22.400000000000002px;
+  line-height: 1.92em;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1166,7 +1176,7 @@ a.article-title:hover {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 22.400000000000002px;
+  height: 1.92em;
 }
 .article-entry .highlight .line.marked {
   background: #515151;
@@ -1300,8 +1310,8 @@ pre .javascript .function {
   #sidebar {
     display: inline;
     float: left;
-    width: 23.333333333333332%;
-    margin: 0 0.833333333333333%;
+    width: 15.217391304347828%;
+    margin: 0 1.482213438735178%;
   }
 }
 .widget-wrap {
